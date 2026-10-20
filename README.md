@@ -93,3 +93,6 @@ Pipeline DevSecOps diimplementasikan menggunakan **GitHub Actions** pada `.githu
    - Menjalankan alat SAST **Bandit** untuk menganalisis AST (*Abstract Syntax Tree*) kode Python.
    - Mengidentifikasi potensi kerentanan keamanan seperti *hardcoded secrets*, penggunaan fungsi tak aman (*insecure functions*), atau ekspresi berbahaya.
    - **Quality Gate Enforcement**: Pipeline diatur untuk gagal (*fail*) apabila Bandit menemukan isu keamanan berkatagori *Medium* atau *High Severity*.
+
+
+Uji Event pull_request
